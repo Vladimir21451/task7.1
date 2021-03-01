@@ -1,0 +1,35 @@
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace
+}
+.card-body {
+    background-color: white;
+}
+.form-popup{
+    display: none;
+    position: fixed;
+    bottom: 140px;
+    right: 14px;
+}
+#frmDialog{
+    max-width: 320px;
+    background-color: thistle;
+}
+#btnStart{
+    position: fixed;
+    bottom: 22px;
+    right: 26px;
+    width: 290px; 
+}
+#frmDialod input[type=text]{
+    width: 100%;
+}
+
+#frmDialog .btn{
+    background-color: #1976D2;
+    color: white;
+    opacity: 0.7;
+}
+#maxVal, #minVal{
+    margin-left:30px;
+}
